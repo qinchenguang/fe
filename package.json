@@ -10,7 +10,7 @@
     "docsify-cli": "^4.3.0"
   },
   "scripts": {
-    "doc": "docsify serve docs",
+    "start": "docsify serve docs",
     "cp": "cp -r target docs/ && cp README.md docs/ && cp -r static docs/"
   },
   "keywords": [],
