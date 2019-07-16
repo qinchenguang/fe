@@ -1,0 +1,22 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.3.0"
+  },
+  "scripts": {
+    "doc": "docsify serve docs",
+    "cp": "cp -r target docs/ && cp README.md docs/ && cp -r static docs/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cp": "^0.2.0"
+  }
+}
